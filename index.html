@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🎬 Movie Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="reviews" class="reviews">
+        <h2>Latest Movie Reviews😎</h2>
+        <div class="review-list" id="reviewList">
+        </div>
+    </section>
+
+    <section class="add-review">
+        <h2>Add Your Review🍟</h2>
+        <input type="text" id="movieTitle" placeholder="Movie Title">
+        <textarea id="movieReview" placeholder="Write your review..."></textarea>
+        <input type="file" id="moviePoster" accept="image/*">
+        <button onclick="addReview()">Submit</button>
+    </section>
+
+    <footer id="contact">
+        <p>Contact: movieblog@.com⚙</p>
+        <p>Phone:9886753779☎</p>
+        <p>&copy; 2025 Movie Blog✨🍟</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
